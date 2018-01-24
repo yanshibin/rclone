@@ -1,11 +1,13 @@
 # rclone
 #::初始化配置  
-`rclone config`  
+```rclone config```  
  
 #::挂载为磁盘  
-`rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000`   
+
+```rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000```   
 #::卸载磁盘  
-`fusermount -qzu LocalFolder`  
+
+```fusermount -qzu LocalFolder```  
 --------------------------------------------------
 自启动  
 使用方法:  
