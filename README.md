@@ -7,6 +7,7 @@
 ```rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000```   
 #::卸载磁盘  
 
+
 ```fusermount -qzu LocalFolder```  
 --------------------------------------------------
 自启动  
